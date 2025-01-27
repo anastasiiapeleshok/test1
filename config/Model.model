@@ -52,6 +52,7 @@
             <defaultValue source="id"/>
         </dataFields>
     </datalists>
+    <datalists entityCode="22" entityName="Datalist3" version="31" name="Datalist3" description="" created="2025-01-27T18:12:23.104+02:00" createdBy="admin" lastUpdated="2025-01-27T18:12:23.104+02:00" lastUpdatedBy="admin" id="Datalist3"/>
     <datalists entityCode="20" entityName="Datalist1" version="31" name="Datalist1" description="" created="2025-01-27T18:11:54.501+02:00" createdBy="admin" lastUpdated="2025-01-27T18:11:54.501+02:00" lastUpdatedBy="admin" id="Datalist1"/>
     <datalists entityCode="21" entityName="Datalist2" version="34" name="Datalist2" description="" created="2025-01-27T18:11:56.292+02:00" createdBy="admin" lastUpdated="2025-01-27T18:11:56.292+02:00" lastUpdatedBy="admin" id="Datalist2"/>
     <views allColumns="true" default="true" modelView="true" entityName="test1clone" name="test1clone" description="Default view for list test1" id="test1clone"/>
@@ -59,6 +60,7 @@
     <views allColumns="true" default="true" entityName="Price Target" name="Price Target" description="Default view for list Price Target" id="Price Target"/>
     <views allColumns="true" default="true" entityName="Sector Outlook" name="Sector Outlook" description="Default view for list Sector Outlook" id="Sector Outlook"/>
     <views allColumns="true" default="true" entityName="Datalist1" name="Datalist1" description="Default view for list Datalist1" id="Datalist1"/>
+    <views allColumns="true" default="true" entityName="Datalist3" name="Datalist3" description="Default view for list Datalist3" id="Datalist3"/>
     <views allColumns="true" default="true" entityName="Datalist2" name="Datalist2" description="Default view for list Datalist2" id="Datalist2"/>
     <views allColumns="true" default="true" entityName="Strategy" name="Strategy" description="Default view for list Strategy" id="Strategy"/>
     <connectors layoutDetected="true" entityName="Stock Fundamental" version="25" name="Stock Fundamental" created="2025-01-27T15:35:37.560+02:00" createdBy="admin" lastUpdated="2025-01-27T15:35:37.560+02:00" lastUpdatedBy="admin" id="Stock Fundamental">
