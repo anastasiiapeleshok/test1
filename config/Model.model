@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
-<ns3:modelConfig xsi:type="ns3:ModelConfig" folder="" pauseCalculations="false" entityCode="1" loadPath="test1clone" entityName="test1clone" version="25" name="test1clone" lastUpdated="2025-01-27T15:35:37.575+02:00" lastUpdatedBy="admin" id="admin:MODEL:test1" xmlns:ns6="http://www.modelshop.com/services/account/types" xmlns:ns5="http://www.modelshop.com/datacore/message/types" xmlns:ns8="http://www.modelshop.com/datacore/generator/types" xmlns:ns7="http://www.modelshop.com/datacore/repository/types" xmlns:ns2="http://www.modelshop.com/datacore/view/types" xmlns:ns4="http://www.modelshop.com/services/model/types" xmlns:ns3="http://www.modelshop.com/model/model/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <datalists entityCode="3" entityName="Stock Fundamental" version="25" name="Stock Fundamental" created="2025-01-27T18:20:30.696+02:00" createdBy="admin" lastUpdated="2025-01-27T15:35:37.553+02:00" lastUpdatedBy="admin" id="Stock Fundamental">
+<ns3:modelConfig xsi:type="ns3:ModelConfig" folder="" pauseCalculations="false" entityCode="1" loadPath="test1clone" entityName="test1clone" version="37" name="test1clone" lastUpdated="2025-01-27T18:27:51.771+02:00" lastUpdatedBy="admin" id="admin:MODEL:test1clone" xmlns:ns6="http://www.modelshop.com/services/account/types" xmlns:ns5="http://www.modelshop.com/datacore/message/types" xmlns:ns8="http://www.modelshop.com/datacore/generator/types" xmlns:ns7="http://www.modelshop.com/datacore/repository/types" xmlns:ns2="http://www.modelshop.com/datacore/view/types" xmlns:ns4="http://www.modelshop.com/services/model/types" xmlns:ns3="http://www.modelshop.com/model/model/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <datalists entityCode="3" entityName="Stock Fundamental" version="37" name="Stock Fundamental" created="2025-01-27T18:27:51.769+02:00" createdBy="admin" lastUpdated="2025-01-27T18:27:51.769+02:00" lastUpdatedBy="admin" id="Stock Fundamental">
         <dataFields type="text" fieldCode="100" rawType="java.lang.String" allowNull="true" name="Symbol" initialized="true" id="Symbol"/>
         <dataFields type="text" fieldCode="101" rawType="java.lang.String" allowNull="true" name="Name" initialized="true" id="Name"/>
         <dataFields type="text" fieldCode="102" rawType="java.lang.String" allowNull="true" name="Sector" initialized="true" id="Sector"/>
@@ -18,7 +18,7 @@
             <defaultValue source="id"/>
         </dataFields>
     </datalists>
-    <datalists entityCode="4" entityName="Price Target" version="25" name="Price Target" created="2025-01-27T18:20:35.196+02:00" createdBy="admin" lastUpdated="2025-01-27T15:35:37.562+02:00" lastUpdatedBy="admin" id="Price Target">
+    <datalists entityCode="4" entityName="Price Target" version="37" name="Price Target" created="2025-01-27T18:27:51.769+02:00" createdBy="admin" lastUpdated="2025-01-27T18:27:51.769+02:00" lastUpdatedBy="admin" id="Price Target">
         <dataFields type="text" fieldCode="100" rawType="java.lang.String" allowNull="true" name="Symbol" initialized="true" id="Symbol"/>
         <dataFields type="decimal" format="0.00" fieldCode="101" rawType="java.math.BigDecimal" allowNull="true" name="Price Target" initialized="true" id="Price Target"/>
         <dataFields type="decimal" format="0.00%" fieldCode="102" rawType="java.math.BigDecimal" allowNull="true" name="column3" initialized="true" id="column3"/>
@@ -29,7 +29,7 @@
             <defaultValue source="id"/>
         </dataFields>
     </datalists>
-    <datalists entityCode="2" entityName="Sector Outlook" version="25" name="Sector Outlook" created="2025-01-27T18:20:38.434+02:00" createdBy="admin" lastUpdated="2025-01-27T15:35:37.569+02:00" lastUpdatedBy="admin" id="Sector Outlook">
+    <datalists entityCode="2" entityName="Sector Outlook" version="37" name="Sector Outlook" created="2025-01-27T18:27:51.769+02:00" createdBy="admin" lastUpdated="2025-01-27T18:27:51.769+02:00" lastUpdatedBy="admin" id="Sector Outlook">
         <dataFields type="text" fieldCode="100" rawType="java.lang.String" allowNull="true" name="Sector" initialized="true" id="Sector"/>
         <dataFields type="text" fieldCode="101" rawType="java.lang.String" allowNull="true" name="Outlook" initialized="true" id="Outlook"/>
         <dataFields type="text" fieldCode="102" readOnly="true" rawType="java.lang.String" name="sourceName" description="Source name" initialized="true" id="sourceName">
@@ -39,7 +39,7 @@
             <defaultValue source="id"/>
         </dataFields>
     </datalists>
-    <datalists entityCode="5" entityName="Strategy" version="25" name="Strategy" created="2025-01-27T18:20:40.940+02:00" createdBy="admin" lastUpdated="2025-01-27T15:35:37.573+02:00" lastUpdatedBy="admin" id="Strategy">
+    <datalists entityCode="5" entityName="Strategy" version="37" name="Strategy" created="2025-01-27T18:27:51.770+02:00" createdBy="admin" lastUpdated="2025-01-27T18:27:51.770+02:00" lastUpdatedBy="admin" id="Strategy">
         <dataFields type="text" fieldCode="100" rawType="java.lang.String" allowNull="true" name="Name" initialized="true" id="Name"/>
         <dataFields type="integer" fieldCode="101" rawType="java.lang.Long" allowNull="true" name="Price to Earnings" initialized="true" id="Price to Earnings"/>
         <dataFields type="decimal" format="0.00" fieldCode="102" rawType="java.math.BigDecimal" allowNull="true" name="Price to Book" initialized="true" id="Price to Book"/>
@@ -52,10 +52,10 @@
             <defaultValue source="id"/>
         </dataFields>
     </datalists>
-    <datalists entityCode="22" entityName="Datalist3" version="31" name="Datalist3" description="" created="2025-01-27T18:20:40.941+02:00" createdBy="admin" lastUpdated="2025-01-27T18:12:23.104+02:00" lastUpdatedBy="admin" id="Datalist3"/>
-    <datalists entityCode="23" entityName="Datalist4" version="38" name="Datalist4" description="" created="2025-01-27T18:20:40.941+02:00" createdBy="admin" lastUpdated="2025-01-27T18:13:20.318+02:00" lastUpdatedBy="admin" id="Datalist4"/>
-    <datalists entityCode="20" entityName="Datalist1" version="35" name="Datalist1" description="" dirty="false" created="2025-01-27T18:20:40.941+02:00" createdBy="admin" lastUpdated="2025-01-27T18:12:11.336+02:00" lastUpdatedBy="admin" id="Datalist1"/>
-    <datalists entityCode="21" entityName="Datalist2" version="38" name="Datalist2" description="" dirty="false" created="2025-01-27T18:20:40.941+02:00" createdBy="admin" lastUpdated="2025-01-27T18:13:37.466+02:00" lastUpdatedBy="admin" id="Datalist2"/>
+    <datalists entityCode="22" entityName="Datalist3" version="37" name="Datalist3" description="" created="2025-01-27T18:27:51.770+02:00" createdBy="admin" lastUpdated="2025-01-27T18:27:51.770+02:00" lastUpdatedBy="admin" id="Datalist3"/>
+    <datalists entityCode="23" entityName="Datalist4" version="37" name="Datalist4" description="" created="2025-01-27T18:27:51.770+02:00" createdBy="admin" lastUpdated="2025-01-27T18:27:51.770+02:00" lastUpdatedBy="admin" id="Datalist4"/>
+    <datalists entityCode="20" entityName="Datalist1" version="37" name="Datalist1" description="" created="2025-01-27T18:27:51.770+02:00" createdBy="admin" lastUpdated="2025-01-27T18:27:51.770+02:00" lastUpdatedBy="admin" id="Datalist1"/>
+    <datalists entityCode="21" entityName="Datalist2" version="37" name="Datalist2" description="" created="2025-01-27T18:27:51.771+02:00" createdBy="admin" lastUpdated="2025-01-27T18:27:51.771+02:00" lastUpdatedBy="admin" id="Datalist2"/>
     <views allColumns="true" default="true" modelView="true" entityName="test1clone" name="test1clone" description="Default view for list test1" id="test1clone"/>
     <views allColumns="true" default="true" entityName="Stock Fundamental" name="Stock Fundamental" description="Default view for list Stock Fundamental" id="Stock Fundamental"/>
     <views allColumns="true" default="true" entityName="Price Target" name="Price Target" description="Default view for list Price Target" id="Price Target"/>
@@ -145,4 +145,7 @@
             </excelMedia>
         </mediaConfig>
     </connectors>
+    <extra name="ModelCanvasCoordinates" description="Coordinates for ModelCanvasCoordinates" id="ModelCanvasCoordinates">
+        <body>{"DATALIST:Stock Fundamental":{"x":44,"y":-85},"CONNECTOR:Stock Fundamental":{"x":39,"y":-187},"CONNECTOR:Price Target":{"x":-510,"y":-230},"CONNECTOR:Strategy":{"x":597,"y":-155},"DATALIST:Price Target":{"x":-488,"y":-131},"DATALIST:Strategy":{"x":598,"y":-54},"CONNECTOR:Sector Outlook":{"x":-1401,"y":24},"DATALIST:Sector Outlook":{"x":-1030,"y":-19},"DATALIST:Datalist1":{"x":-1053,"y":-164},"DATALIST:Datalist2":{"x":-759,"y":-9},"DATALIST:Datalist3":{"x":1025,"y":84},"DATALIST:Datalist4":{"x":-968,"y":-69},"DATALIST:data3":{"x":-1432,"y":-45}}</body>
+    </extra>
 </ns3:modelConfig>
